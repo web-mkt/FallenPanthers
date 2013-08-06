@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uwm-header {
+	width: 1866px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+#container {
+	width: 1866px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #b8b8b8;
+	padding-top: 40px;
+	max-height: 800px;
+	overflow: hidden;
+}
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+#wrapper {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#b-tr, #b-tl {
+	width: 150px;
+	height: 343px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: -3000px;
+}
+
+#b-tl img {
+	margin-right: auto;
+	display: block;
+	margin-left: auto;
+}
+#wrapper p {
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#b-tc {
+	width: 520px;
+	margin-right: 30px;
+	margin-left: 30px;
+	position: relative;
+	top: -348px;
+	left: 190px;
+	height: 348px;
+}
+
+#b-tr {
+	position: relative;
+	top: -696px;
+	left: 770px;
+}
+#b-bl , #b-bc, #b-br{
+	height: 322px;
+	width: 300px;
+	padding-top: 5px;
+}
+#b-bl img, #b-br img {
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 280px;
+}
+
+.b-bl-button {
+	width: 141px;
+	float: left;
+	height: 60px;
+	margin-left: 10px;
+	background-color: #ffbe00;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #666;
+	font-size: 12px;
+	font-weight: 600;
+	-webkit-transition: All 0.5s ease;
+-moz-transition: All 0.5s ease;
+-o-transition: All 0.5s ease;
+-ms-transition: All 0.5s ease;
+transition: All 0.5s ease;	
+}
+.b-bl-button:hover {
+	background-color: #c39204;
+}
+
+#b-bl-leftbutton {
+	margin-left: -2px;
+
+}
+#b-bl {
+	position: relative;
+	top: -666px;
+}
+#b-bc {
+	position: relative;
+	left: 330px;
+	top: -993px;
+}
+#b-br {
+	position: relative;
+	top: -1320px;
+	left: 660px;
+	padding-bottom: -1000px;
+}
+
+
+
+
+#b-br-button {
+	height: 60px;
+	width: 280px;
+	margin-left: 10px;
+	background-color: #b8b8b8;
+	font-size: 12px;
+	font-weight: 600;
+	border: 1px solid #9a9999;
+	-webkit-transition: All 0.5s ease;
+	-moz-transition: All 0.5s ease;
+	-o-transition: All 0.5s ease;
+	-ms-transition: All 0.5s ease;
+	transition: All 0.5s ease;
+}
+#b-br-button:hover {
+	background-color: #666;
+}
+
+
+
+.form {
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 260px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	background-color: #999;
+	border: 1px solid #000;
+	padding-right: 10px;
+	padding-left: 10px;
+	moz-box-shadow:inset 0px 0px 5px #333;
+-webkit-box-shadow:inset 0px 0px 5px #333;
+box-shadow:inset 1px 0px 5px #333;
+}
+#message-text {
+	height: 120px;
+	padding-top: 10px;
+}
+#submit {
+	margin-top: 10px;
+	margin-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	color: #FFF;
+	background-color: #999;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid #666;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	 height: 40px;
+ 	overflow: hidden;
+  	display: block;
+  	line-height: 40px;
+	text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.8);
+background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+
+#submit:hover {
+	margin-top: 12px;
+  -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.8);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+#email-text {
+	height: 30px;
+	margin-bottom: 10px;
+
+}
